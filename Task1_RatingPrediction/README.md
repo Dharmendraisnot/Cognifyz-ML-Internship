@@ -44,19 +44,19 @@ This project predicts restaurant ratings using Machine Learning. A Random Forest
 
 ## Screenshots
 
-Add screenshots in the screenshots folder and display them here.
+Add screenshots in the screenshot folder and display them here.
 
 ### Feature Importance
 
-![Feature Importance](screenshots/Feature_Importance.png)
+![Feature Importance](screenshot/Feature_Importance.png)
 
 ### Actual vs Predicted Ratings
 
-![Actual vs Predicted](screenshots/Actual_vs_Predicted.png)
+![Actual vs Predicted](screenshot/Actual_vs_Predicted.png)
 
 ### Streamlit Application
 
-![Streamlit App](screenshots/Streamlit_App.png)
+![Streamlit App](screenshot/Streamlit_App.png)
 
 ## How to Run
 

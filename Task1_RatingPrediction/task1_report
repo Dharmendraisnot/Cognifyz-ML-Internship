@@ -1,0 +1,64 @@
+# Task 1: Restaurant Rating Prediction
+
+## Objective
+
+The objective of this project is to build a Machine Learning model that predicts the aggregate rating of a restaurant based on various features such as city, cuisine, average cost for two, price range, votes, online delivery availability, and table booking availability.
+
+## Dataset Description
+
+The dataset contains information about restaurants, including:
+
+* Restaurant Name
+* City
+* Cuisines
+* Average Cost for Two
+* Price Range
+* Votes
+* Aggregate Rating
+* Online Delivery
+* Table Booking
+
+The dataset consists of 9551 records and 21 attributes.
+
+## Data Preprocessing
+
+The following preprocessing steps were performed:
+
+1. Handled missing values in the Cuisine column.
+2. Selected relevant features for prediction.
+3. Encoded categorical variables using Label Encoding.
+4. Split the dataset into training and testing sets.
+
+## Model Used
+
+Random Forest Regressor was selected for prediction because it can capture complex relationships between variables and generally performs well on structured datasets.
+
+## Model Evaluation
+
+Performance Metrics:
+
+* Mean Absolute Error (MAE): 0.206
+* Mean Squared Error (MSE): 0.102
+* Root Mean Squared Error (RMSE): 0.320
+* R² Score: 0.955
+
+These results indicate that the model predicts restaurant ratings with high accuracy.
+
+## Feature Importance Analysis
+
+The model identified Votes as the most influential feature affecting restaurant ratings. Other contributing features include:
+
+* Average Cost for Two
+* City
+* Cuisine Type
+* Price Range
+* Online Delivery
+* Table Booking
+
+## Streamlit Web Application
+
+A Streamlit web application was developed to allow users to input restaurant details and obtain predicted ratings in real time.
+
+## Conclusion
+
+The Restaurant Rating Prediction model successfully predicts restaurant ratings with high accuracy. The project demonstrates the complete machine learning workflow, including data preprocessing, model training, evaluation, visualization, and deployment using Streamlit.

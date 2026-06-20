@@ -48,7 +48,7 @@ Add screenshots in the screenshots folder and display them here.
 
 ### Feature Importance
 
-![Feature Importance](screenshots/Feature_Importance.png)
+![Feature Importance](screenshots/Feature Importance.png)
 
 ### Actual vs Predicted Ratings
 

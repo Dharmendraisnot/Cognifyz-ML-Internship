@@ -56,7 +56,7 @@ Add screenshots in the screenshot folder and display them here.
 
 ### Streamlit Application
 
-![Streamlit App](screenshot/Streamlit_App.png)
+![Streamlit App](screenshot/Streamlit_App.jpg)
 
 ## How to Run
 

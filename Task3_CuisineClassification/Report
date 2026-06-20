@@ -1,0 +1,91 @@
+# Task 3: Cuisine Classification
+
+## Objective
+
+The objective of this project is to develop a Machine Learning model that classifies restaurants based on their cuisine type using restaurant-related features.
+
+## Dataset Description
+
+The dataset contains restaurant information such as:
+
+* Restaurant Name
+* City
+* Cuisines
+* Average Cost for Two
+* Price Range
+* Aggregate Rating
+* Votes
+* Has Table Booking
+* Has Online Delivery
+
+The dataset was preprocessed to prepare it for classification.
+
+## Data Preprocessing
+
+The following preprocessing steps were performed:
+
+1. Handled missing values in the Cuisine column.
+2. Selected the most frequent cuisine categories.
+3. Encoded categorical variables using Label Encoding.
+4. Converted Yes/No features into numerical values.
+5. Split the dataset into training and testing datasets.
+
+## Features Used
+
+* City
+* Average Cost for Two
+* Price Range
+* Votes
+* Aggregate Rating
+* Has Table Booking
+* Has Online Delivery
+
+Target Variable:
+
+* Cuisine Type
+
+## Model Selection
+
+Random Forest Classifier was used for classification because it performs well on structured datasets and can handle non-linear relationships between features.
+
+## Model Training
+
+The dataset was divided into:
+
+* Training Data: 80%
+* Testing Data: 20%
+
+The model was trained using the training dataset and evaluated using the testing dataset.
+
+## Evaluation Metrics
+
+The following classification metrics were used:
+
+* Accuracy
+* Precision
+* Recall
+* F1-Score
+* Confusion Matrix
+
+### Results
+
+Accuracy: 25.96%
+
+The model showed moderate performance due to the presence of multiple cuisine combinations and class imbalance in the dataset.
+
+## Challenges Identified
+
+1. Many restaurants belong to multiple cuisines.
+2. Some cuisine categories have significantly more samples than others.
+3. Similar cuisines often overlap in characteristics.
+4. Dataset imbalance affects classification performance.
+
+## Bias Analysis
+
+* Popular cuisines were predicted more accurately.
+* Rare cuisines had lower prediction performance.
+* The model favored classes with larger sample sizes.
+
+## Conclusion
+
+A Cuisine Classification model was successfully developed using Random Forest Classification. The project demonstrates data preprocessing, feature engineering, classification modeling, evaluation metrics, and analysis of model performance across different cuisine categories.

@@ -48,15 +48,15 @@ Add screenshots in the screenshots folder and display them here.
 
 ### Feature Importance
 
-![Feature Importance](screenshots/Feature Importance.png)
+![Feature Importance](screenshots/Feature_Importance.png)
 
 ### Actual vs Predicted Ratings
 
-![Actual vs Predicted](screenshots/actual_vs_predicted.png)
+![Actual vs Predicted](screenshots/Actual_vs_Predicted.png)
 
 ### Streamlit Application
 
-![Streamlit App](screenshots/streamlit_app.png)
+![Streamlit App](screenshots/Streamlit_App.png)
 
 ## How to Run
 

@@ -1,0 +1,75 @@
+# Task 4: Location-Based Analysis
+
+## Objective
+
+The objective of this project is to perform a geographical analysis of restaurants using location information available in the dataset. The analysis focuses on restaurant distribution, city-wise concentration, ratings, pricing trends, and cuisine popularity.
+
+## Dataset Description
+
+The dataset contains information about restaurants, including:
+
+* Restaurant Name
+* City
+* Latitude
+* Longitude
+* Cuisines
+* Aggregate Rating
+* Price Range
+* Votes
+* Online Delivery
+* Table Booking
+
+The dataset consists of 9551 restaurant records from multiple cities.
+
+## Data Exploration
+
+The Latitude and Longitude attributes were analyzed to understand the geographical distribution of restaurants.
+
+The City attribute was used to identify restaurant concentrations across different locations.
+
+## Analysis Performed
+
+### 1. Restaurant Distribution
+
+Restaurant locations were explored using geographical coordinates to understand how restaurants are distributed across different regions.
+
+### 2. City-wise Concentration Analysis
+
+Restaurants were grouped by city to identify areas with the highest restaurant density.
+
+### 3. Average Rating Analysis
+
+Average restaurant ratings were calculated for each city to determine locations with better customer satisfaction.
+
+### 4. Price Range Analysis
+
+Average price ranges were analyzed city-wise to identify premium dining markets.
+
+### 5. Cuisine Analysis
+
+Cuisine popularity was explored to determine the most common food preferences among customers.
+
+## Key Findings
+
+* The dataset contains 9551 restaurants distributed across multiple cities.
+* Restaurant concentration is highly uneven across locations.
+* A few major cities account for a large percentage of restaurants.
+* Restaurant ratings vary significantly by city.
+* Certain cities exhibit higher average price ranges, indicating premium dining markets.
+* Some cuisines dominate the restaurant industry and appear more frequently than others.
+* Restaurant locations show strong geographical clustering.
+
+## Dashboard Development
+
+A Streamlit dashboard was developed to provide an interactive overview of:
+
+* Total Restaurants
+* Total Cities
+* Average Rating
+* Most Popular Cuisine
+* Top Cities by Restaurant Count
+* Location-Based Insights
+
+## Conclusion
+
+The geographical analysis reveals that restaurant businesses are concentrated in a few major cities. Customer ratings, pricing strategies, and cuisine preferences differ across locations. The developed dashboard provides a concise overview of restaurant trends and location-based insights, supporting data-driven decision making.

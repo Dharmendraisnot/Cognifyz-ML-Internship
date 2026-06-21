@@ -1,18 +1,146 @@
-# Cognifyz-ML-Internship
-Machine Learning internship project repository with Cognifyz Technologies. Features predictive modeling for restaurant ratings, automated cuisine classification, and geographical location analysis using Python
 # Cognifyz Machine Learning Internship
 
-This repository contains my data science and machine learning projects completed during my internship at Cognifyz Technologies. The core objective is to analyze restaurant data and build predictive models to gain business insights.
+## Overview
 
-## 📁 Repository Structure
+This repository contains the projects completed during the Machine Learning Internship at Cognifyz Technologies. The internship focused on applying Machine Learning, Data Analysis, and Data Visualization techniques to real-world restaurant datasets.
 
-- **[Task1_RatingPrediction](./Task1_RatingPrediction/)**: Building a machine learning model to predict aggregate restaurant ratings based on features like price range, online delivery, and table booking.
-- **[Task3_CuisineClassification](./Task3_CuisineClassification/)**: Developing classification models to predict the primary cuisine of a restaurant based on various textual and spatial attributes.
-- **[Task4_LocationAnalysis](./Task4_LocationAnalysis/)**: Performing geographical analysis to map restaurant distribution, identify city-wise trends, and uncover regional rating clusters.
+## Internship Tasks Completed
 
-## 🛠️ Technologies Used
-- Python 3
-- Pandas & NumPy (Data Manipulation)
-- Scikit-Learn (Machine Learning Modeling)
-- Matplotlib & Seaborn (Data Visualization)
-- Jupyter Notebooks (Development Environment)
+### Task 1: Restaurant Rating Prediction
+
+#### Objective
+
+Build a Machine Learning model to predict restaurant ratings based on restaurant features.
+
+#### Technologies Used
+
+* Python
+* Pandas
+* Scikit-Learn
+* Streamlit
+* Matplotlib
+* Seaborn
+
+#### Outcomes
+
+* Data preprocessing and feature engineering
+* Random Forest Regression model
+* Model evaluation using MAE, MSE, RMSE, and R² Score
+* Streamlit web application for rating prediction
+
+---
+
+### Task 3: Cuisine Classification
+
+#### Objective
+
+Develop a Machine Learning model to classify restaurants based on cuisine type.
+
+#### Technologies Used
+
+* Python
+* Pandas
+* Scikit-Learn
+* Streamlit
+
+#### Outcomes
+
+* Classification model development
+* Accuracy, Precision, Recall, and F1-score evaluation
+* Confusion Matrix analysis
+* Streamlit-based cuisine prediction system
+
+---
+
+### Task 4: Location-Based Analysis
+
+#### Objective
+
+Perform geographical analysis of restaurants using location information.
+
+#### Technologies Used
+
+* Python
+* Pandas
+* Matplotlib
+* Seaborn
+* Streamlit
+
+#### Outcomes
+
+* Restaurant distribution analysis
+* City-wise concentration analysis
+* Rating and price range comparison
+* Interactive dashboard with business insights
+
+---
+
+## Repository Structure
+
+Cognifyz-ML-Internship/
+
+├── Task1_RatingPrediction
+
+│   ├── app.py
+
+│   ├── model.pkl
+
+│   ├── README.md
+
+│   └── screenshots/
+
+│
+
+├── Task3_CuisineClassification
+
+│   ├── app.py
+
+│   ├── cuisine_model.pkl
+
+│   ├── README.md
+
+│   └── screenshots/
+
+│
+
+├── Task4_LocationAnalysis
+
+│   ├── app.py
+
+│   ├── README.md
+
+│   └── screenshots/
+
+│
+
+└── README.md
+
+---
+
+## Skills Gained
+
+* Data Cleaning
+* Feature Engineering
+* Machine Learning
+* Regression
+* Classification
+* Data Visualization
+* Dashboard Development
+* Streamlit Deployment
+* Model Evaluation
+
+---
+
+## Author
+
+Dharmendra Meena
+
+B.Tech (Artificial Intelligence & Machine Learning)
+
+JUET Guna
+
+Graduation Year: 2028
+
+LinkedIn: Add Your LinkedIn Profile Link
+
+GitHub: Add Your GitHub Profile Link
